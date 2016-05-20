@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Bundling D3 into the app using rollup</title>
-    <script src="template-bundled.js"></script>
+    <script src="circle-bundled.js"></script>
   </head>
   <body>
     <script>
-      template.draw(document.body, window.innerWidth, window.innerHeight);
+      circle.draw(document.body, window.innerWidth, window.innerHeight);
 
       setTimeout(function() {
-        template.state.radius = 100;
-        template.update();
+        circle.state.radius = 100;
+        circle.update();
       }, 2000);
     </script>
   </body>

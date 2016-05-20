@@ -16,3 +16,6 @@ The file `bundled.html` includes a bundle generated using rollup,
 and fails with:
 
     circle.js:24 Uncaught TypeError: circle.transition is not a function
+
+Even explicitly importing `d3-transition` doesn’t seem to help, as the file
+`bundled-importing-d3-transition.html` is supposed to show.
