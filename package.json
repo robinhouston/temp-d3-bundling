@@ -1,0 +1,18 @@
+{
+  "name": "temp-d3-bundling",
+  "version": "1.0.0",
+  "description": "Test: bundling D3 v4 using rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Houston",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "d3": "^4.0.0-alpha.40"
+  },
+  "devDependencies": {
+    "rollup": "^0.26.3",
+    "rollup-plugin-node-resolve": "^1.5.0"
+  }
+}
